@@ -8,7 +8,7 @@
     <div class="main main-raised">
       <div class="section text-center">
         <div class="container">
-          <h2 class="title">Here is our team</h2>
+          <h2 class="title">Our Team</h2>
           <div class="team">
             <div class="md-layout">
               <!-- Keezog -->
@@ -29,7 +29,7 @@
                     </h4>
 
                     <md-card-content>
-                      <p class="card-description">I am Scottish</p>
+                      <p class="card-description">22 years old from Scotland! I stream a variety of different games. Mostly multiplayer games such Apex Legends. I love interacting and playing with my viewers, so if you want to play some games together, stop by when I\'m live and let\'s play!</p>
                     </md-card-content>
 
                     <md-card-actions class="text-center">
@@ -109,7 +109,7 @@
                     </h4>
 
                     <md-card-content>
-                      <p class="card-description">Definitely Canadian eh bud</p>
+                      <p class="card-description">Born in the concrete jungle of Toronto, ON. Ever since a young age with nothing but influences from different backgrounds, I picked up the camera &amp; fashion and never looked back</p>
                     </md-card-content>
 
                     <md-card-actions class="text-center">
@@ -437,6 +437,8 @@
           </div>
         </div>
       </div>
+
+      <!-- 
       <div class="section section-contacts">
         <div class="container">
           <div class="md-layout">
@@ -480,6 +482,7 @@
           </div>
         </div>
       </div>
+        -->
     </div>
   </div>
 </template>
