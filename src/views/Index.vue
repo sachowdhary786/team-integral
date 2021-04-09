@@ -58,7 +58,7 @@
                       SAC
                       <br />
                       <small class="card-description text-muted"
-                        >Founder / Twitch Streamer</small
+                        >Founder</small
                       >
                     </h4>
 
@@ -68,13 +68,13 @@
 
                     <md-card-actions class="text-center">
                       <md-button
-                        href="www.twitter.com/saadchowdhary"
+                        href="https://www.twitter.com/saadchowdhary"
                         class="md-just-icon md-simple md-info"
                       >
                         <i class="fab fa-twitter"></i>
                       </md-button>
                       <md-button
-                        href="javascript:void(0)"
+                        href="https://www.instagram.com/sahmedc786/"
                         class="md-just-icon md-simple md-rose"
                       >
                         <i class="fab fa-instagram"></i>
@@ -114,13 +114,7 @@
 
                     <md-card-actions class="text-center">
                       <md-button
-                        href="javascript:void(0)"
-                        class="md-just-icon md-simple md-info"
-                      >
-                        <i class="fab fa-twitter"></i>
-                      </md-button>
-                      <md-button
-                        href="javascript:void(0)"
+                        href="https://www.instagram.com/_bellcarter_/"
                         class="md-just-icon md-simple md-rose"
                       >
                         <i class="fab fa-instagram "></i>
@@ -152,22 +146,19 @@
 
                     <md-card-content>
                       <p class="card-description">
-                        You can write here details about one of your team
-                        members. You can give more details about what they do.
-                        Feel free to add some <a href="#">links</a> for people
-                        to be able to follow them outside the site.
+                        My name's Ashe (she/her or they/them) and I'm a casual Canadian streamer. Come watch me play some random games that I enjoy and see how I can take some simple tasks and make them extremely difficult!
                       </p>
                     </md-card-content>
 
                     <md-card-actions class="text-center">
                       <md-button
-                        href="javascript:void(0)"
+                        href="https://twitter.com/dusklux"
                         class="md-just-icon md-simple md-info"
                       >
                         <i class="fab fa-twitter"></i>
                       </md-button>
                       <md-button
-                        href="javascript:void(0)"
+                        href="https://www.instagram.com/dusk.lux/"
                         class="md-just-icon md-simple md-rose"
                       >
                         <i class="fab fa-instagram"></i>
@@ -204,26 +195,11 @@
 
                     <md-card-content>
                       <p class="card-description">
-                        You can write here details about one of your team
-                        members. You can give more details about what they do.
-                        Feel free to add some <a href="#">links</a> for people
-                        to be able to follow them outside the site.
+                        Hi! I'm a 21 year old Physics student from the UK. I'm a variety streamer and I play games like minecraft, GTA, warzone, and stardew valley. Come hang out!
                       </p>
                     </md-card-content>
 
                     <md-card-actions class="text-center">
-                      <md-button
-                        href="javascript:void(0)"
-                        class="md-just-icon md-simple md-info"
-                      >
-                        <i class="fab fa-twitter"></i>
-                      </md-button>
-                      <md-button
-                        href="javascript:void(0)"
-                        class="md-just-icon md-simple md-rose"
-                      >
-                        <i class="fab fa-instagram"></i>
-                      </md-button>
                       <md-button
                         href="https://www.twitch.tv/meganpi_"
                         class="md-just-icon md-simple md-primary"
@@ -255,26 +231,11 @@
 
                     <md-card-content>
                       <p class="card-description">
-                        You can write here details about one of your team
-                        members. You can give more details about what they do.
-                        Feel free to add some <a href="#">links</a> for people
-                        to be able to follow them outside the site.
+                        Hello I'm Kin! I'm a 22 year old streamer from the United States. I enjoy doing speedruns on Minecraft and playing on my survival worlds!
                       </p>
                     </md-card-content>
 
                     <md-card-actions class="text-center">
-                      <md-button
-                        href="javascript:void(0)"
-                        class="md-just-icon md-simple md-info"
-                      >
-                        <i class="fab fa-twitter"></i>
-                      </md-button>
-                      <md-button
-                        href="javascript:void(0)"
-                        class="md-just-icon md-simple md-rose"
-                      >
-                        <i class="fab fa-instagram"></i>
-                      </md-button>
                       <md-button
                         href="https://www.twitch.tv/quigonkin"
                         class="md-just-icon md-simple md-primary"
@@ -308,22 +269,19 @@
 
                     <md-card-content>
                       <p class="card-description">
-                        You can write here details about one of your team
-                        members. You can give more details about what they do.
-                        Feel free to add some <a href="#">links</a> for people
-                        to be able to follow them outside the site.
+                        Do you like movies, comics, gaming, &amp; obscure pop culture references? If so, then you've come to the right place! Hi! I'm the Narrator; a voiceover artist and variety streamer from Ontario, Canada. I like sunsets, long walks on the beach, cinema, &amp; Star Wars. Let's be friends?
                       </p>
                     </md-card-content>
 
                     <md-card-actions class="text-center">
                       <md-button
-                        href="javascript:void(0)"
+                        href="https://twitter.com/iamthe_narrator"
                         class="md-just-icon md-simple md-info"
                       >
                         <i class="fab fa-twitter"></i>
                       </md-button>
                       <md-button
-                        href="javascript:void(0)"
+                        href="https://www.instagram.com/iamthe_narrator/"
                         class="md-just-icon md-simple md-rose"
                       >
                         <i class="fab fa-instagram"></i>
@@ -333,6 +291,12 @@
                         class="md-just-icon md-simple md-primary"
                       >
                         <i class="fab fa-twitch"></i>
+                      </md-button>
+                      <md-button
+                        href="https://www.youtube.com/channel/UCnAw98QjJhAiqWurU0V6EwA"
+                        class="md-just-icon md-simple md-danger"
+                      >
+                        <i class="fab fa-youtube"></i>
                       </md-button>
                     </md-card-actions>
                   </md-card>
@@ -359,28 +323,25 @@
 
                     <md-card-content>
                       <p class="card-description">
-                        You can write here details about one of your team
-                        members. You can give more details about what they do.
-                        Feel free to add some <a href="#">links</a> for people
-                        to be able to follow them outside the site.
+                        Yo yo yo! It's your man The Llama! I'm a 31 year old life long gamer. Man of many trades. Real estate agent, house flipper, COD player, dart thrower and beer drinker. Love making people laugh and smile! I've lived a lot of life and love to share my experiences and stories!
                       </p>
                     </md-card-content>
 
                     <md-card-actions class="text-center">
                       <md-button
-                        href="javascript:void(0)"
+                        href="https://twitter.com/TheLlama42"
                         class="md-just-icon md-simple md-info"
                       >
                         <i class="fab fa-twitter"></i>
                       </md-button>
                       <md-button
-                        href="javascript:void(0)"
+                        href="https://www.instagram.com/thellama42/"
                         class="md-just-icon md-simple md-rose"
                       >
                         <i class="fab fa-instagram"></i>
                       </md-button>
                       <md-button
-                        href="https://www.twitch.tv/iamthe_narrator"
+                        href="https://www.twitch.tv/thellama4288/"
                         class="md-just-icon md-simple md-primary"
                       >
                         <i class="fab fa-twitch"></i>
@@ -394,18 +355,12 @@
                 <div class="team-player">
                   <md-card class="md-card-plain">
                     <div class="md-layout-item md-size-50 mx-auto">
-                      <img
-                        :src="teamImg9"
-                        alt="Thumbnail Image"
-                        class="img-raised rounded-circle img-fluid"
-                      />
+                      <img :src="teamImg9" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid"/>
                     </div>
                     <h4 class="card-title">
                       Brendon Alekseii 
                       <br />
-                      <small class="card-description text-muted"
-                        >Social Justice Storyteller</small
-                      >
+                      <small class="card-description text-muted">Social Justice Storyteller</small>
                     </h4>
 
                     <md-card-content>
@@ -417,16 +372,13 @@
                     </md-card-content>
 
                     <md-card-actions class="text-center">
-                      <md-button
-                        href="https://twitter.com/BrendonAlekseii"
-                        class="md-just-icon md-simple md-info"
-                      >
+                      <md-button href="https://twitter.com/BrendonAlekseii" class="md-just-icon md-simple md-info">
                         <i class="fab fa-twitter"></i>
                       </md-button>
-                      <md-button
-                        href="https://www.instagram.com/brendon.alekseii/"
-                        class="md-just-icon md-simple md-primary"
-                      >
+                      <md-button href="https://www.instagram.com/brendon.alekseii/" class="md-just-icon md-simple md-rose">
+                      <i class="fab fa-instagram"></i>
+                      </md-button>
+                      <md-button href="https://www.twitch.tv/brendonalekseii" class="md-just-icon md-simple md-primary">
                         <i class="fab fa-twitch"></i>
                       </md-button>
                     </md-card-actions>
@@ -437,52 +389,6 @@
           </div>
         </div>
       </div>
-
-      <!-- 
-      <div class="section section-contacts">
-        <div class="container">
-          <div class="md-layout">
-            <div class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto">
-              <h2 class="text-center title">
-                Want to become part of the team?
-              </h2>
-              <h4 class="text-center description">
-                Want to become a part of the team? Think you have what it takes
-                to hang with us?
-                <br />
-
-                <br />
-              </h4>
-              <form class="contact-form" id="signup-form">
-                <div class="md-layout">
-                  <div class="md-layout-item md-size-50">
-                    <md-field>
-                      <label>Your Name</label>
-                      <md-input v-model="name" type="text"></md-input>
-                    </md-field>
-                  </div>
-                  <div class="md-layout-item md-size-50">
-                    <md-field>
-                      <label>Your Email</label>
-                      <md-input v-model="email" type="email"></md-input>
-                    </md-field>
-                  </div>
-                </div>
-                <md-field maxlength="5">
-                  <label>Your Message</label>
-                  <md-textarea v-model="message"></md-textarea>
-                </md-field>
-                <div class="md-layout">
-                  <div class="md-layout-item md-size-33 mx-auto text-center">
-                    <md-button class="md-rose md-round">Send Message</md-button>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-        -->
     </div>
   </div>
 </template>
