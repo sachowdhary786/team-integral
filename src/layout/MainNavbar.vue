@@ -7,6 +7,9 @@
     :color-on-scroll="colorOnScroll"
   >
     <div class="md-toolbar-row md-collapse-lateral">
+      <div class="md-toolbar-section-start">
+        <h3 class="md-title md-hidden" id="toolbarTitle">Team Integral</h3>
+      </div>
       <div class="md-toolbar-section-end">
         <md-button
           class="md-just-icon md-simple md-toolbar-toggle"
@@ -24,76 +27,70 @@
               <!-- Here you can add your items from the section-start of your toolbar -->
             </mobile-menu>
             <md-list>
-              <li class="md-list-item" v-if="!showDownload">
-                <a
-                  href="javascript:void(0)"
-                  class="md-list-item-router md-list-item-container md-button-clean dropdown"
-                >
-                  <div class="md-list-item-content">
-                    <drop-down direction="down">
-                      <md-button
-                        slot="title"
-                        class="md-button md-button-link md-white md-simple dropdown-toggle"
-                        data-toggle="dropdown"
-                      >
-                        <i class="material-icons">apps</i>
-                        <p>Components</p>
-                      </md-button>
-                      <ul class="dropdown-menu dropdown-with-icons">
-                        <li>
-                          <a href="#/">
-                            <i class="material-icons">layers</i>
-                            <p>All Components</p>
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="https://demos.creative-tim.com/vue-material-kit/documentation/"
-                          >
-                            <i class="material-icons">content_paste</i>
-                            <p>Documentation</p>
-                          </a>
-                        </li>
-                      </ul>
-                    </drop-down>
-                  </div>
-                </a>
-              </li>
-
               <md-list-item
                 href="https://twitter.com/team__integral"
-                target="_blank">
+                target="_blank"
+              >
                 <i class="fab fa-twitter"></i>
                 <p class="hidden-lg">Twitter</p>
-                <md-tooltip md-direction="bottom">Follow us on Twitter</md-tooltip>
+                <md-tooltip md-direction="bottom"
+                  >Follow us on Twitter</md-tooltip
+                >
               </md-list-item>
-              <md-list-item href="https://www.youtube.com/channel/UCh3dwjIqPUFoP5yF6ENlndw"
-                target="_blank">
+              <md-list-item
+                href="https://www.youtube.com/channel/UCh3dwjIqPUFoP5yF6ENlndw"
+                target="_blank"
+              >
                 <i class="fab fa-youtube"></i>
                 <p class="hidden-lg">YouTube</p>
-                <md-tooltip md-direction="bottom">Follow us on YouTube</md-tooltip>
+                <md-tooltip md-direction="bottom"
+                  >Follow us on YouTube</md-tooltip
+                >
               </md-list-item>
               <md-list-item
                 href="https://www.instagram.com/teamintegral_/"
-                target="_blank">
+                target="_blank"
+              >
                 <i class="fab fa-instagram"></i>
                 <p class="hidden-lg">Instagram</p>
-                <md-tooltip md-direction="bottom">Follow us on Instagram</md-tooltip>
+                <md-tooltip md-direction="bottom"
+                  >Follow us on Instagram</md-tooltip
+                >
               </md-list-item>
               <md-list-item
                 href="https://www.tiktok.com/@team_integral"
-                target="_blank">
+                target="_blank"
+              >
                 <i class="fab fa-tiktok"></i>
                 <p class="hidden-lg">TikTok</p>
-                <md-tooltip md-direction="bottom">Follow us on TikTok</md-tooltip>
+                <md-tooltip md-direction="bottom"
+                  >Follow us on TikTok</md-tooltip
+                >
               </md-list-item>
               <md-list-item
                 href="https://www.reddit.com/user/IntegralGaming"
-                target="_blank">
+                target="_blank"
+              >
                 <i class="fab fa-reddit"></i>
                 <p class="hidden-lg">Reddit</p>
-                <md-tooltip md-direction="bottom">Follow us on Reddit</md-tooltip>
+                <md-tooltip md-direction="bottom"
+                  >Follow us on Reddit</md-tooltip
+                >
               </md-list-item>
+              <!--
+              <md-list-item href="#/" target="_top">
+                <i class="fas fa-home"></i>
+                <p class="hidden-lg">Home</p>
+                <md-tooltip md-direction="bottom">Go back home</md-tooltip>
+              </md-list-item>
+            <md-list-item href="#/apply" target="_top">
+              <i class="fas fa-check"></i>
+              <p class="hidden-lg">Apply</p>
+              <md-tooltip md-direction="bottom"
+                >Apply to be a part of the team</md-tooltip
+              >
+            </md-list-item>
+            -->
             </md-list>
           </div>
         </div>
@@ -179,14 +176,19 @@ export default {
       let scrollValue =
         document.body.scrollTop || document.documentElement.scrollTop;
       let navbarColor = document.getElementById("toolbar");
+      let toolbarTitle = document.getElementById("toolbarTitle");
       this.currentScrollValue = scrollValue;
       if (this.colorOnScroll > 0 && scrollValue > this.colorOnScroll) {
         this.extraNavClasses = `md-${this.type}`;
         navbarColor.classList.remove("md-transparent");
+        toolbarTitle.classList.add("md-show");
+        toolbarTitle.classList.remove("md-hidden");
       } else {
         if (this.extraNavClasses) {
           this.extraNavClasses = "";
           navbarColor.classList.add("md-transparent");
+          toolbarTitle.classList.remove("md-show");
+          toolbarTitle.classList.add("md-hidden");
         }
       }
     },

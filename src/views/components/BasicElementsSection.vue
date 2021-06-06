@@ -1,302 +1,478 @@
 <template>
-  <div class="wrapper">
-    <div id="buttons">
-      <div class="title">
-        <h3>
-          Buttons <br />
-          <small>Pick your style</small>
-        </h3>
-      </div>
+  <div class="container">
+    <h2 class="title">Our Team</h2>
+    <div class="team">
       <div class="md-layout">
-        <div class="md-layout-item md-size-66 mx-auto">
-          <md-button class="md-primary">Default</md-button>
-          <md-button class="md-primary md-round">Round</md-button>
-          <md-button class="md-primary"
-            ><md-icon>favorite</md-icon> With Icon</md-button
-          >
-          <md-button class="md-primary md-just-icon md-round"
-            ><md-icon>favorite</md-icon></md-button
-          >
-          <md-button class="md-primary md-simple">Simple</md-button>
+        <!-- Keezog -->
+        <div class="md-layout-item md-medium-size-50 md-small-size-100">
+          <div class="team-player" id="keezog">
+            <md-card class="md-card-plain">
+              <div class="md-layout-item md-size-50 mx-auto">
+                <img
+                  :src="teamImg2"
+                  alt="Thumbnail Image"
+                  class="img-raised rounded-circle img-fluid"
+                />
+              </div>
+              <h4 class="card-title">
+                Keezog
+                <br />
+                <small class="card-description text-muted">Founder</small>
+              </h4>
+
+              <md-card-content>
+                <p class="card-description">
+                  22 years old from Scotland! I stream a variety of different
+                  games. Mostly multiplayer games such Apex Legends. I love
+                  interacting and playing with my viewers, so if you want to
+                  play some games together, stop by when I'm live and let's
+                  play!
+                </p>
+              </md-card-content>
+
+              <md-card-actions class="text-center">
+                <md-button
+                  href="https://www.twitter.com/keezog"
+                  class="md-just-icon md-simple md-info"
+                >
+                  <i class="fab fa-twitter"></i>
+                </md-button>
+              </md-card-actions>
+            </md-card>
+          </div>
         </div>
-      </div>
-      <div class="title">
-        <h3><small>Pick your size</small></h3>
-      </div>
-      <div class="md-layout">
-        <div class="md-layout-item md-size-66 mx-auto md-xsmall-size-100">
-          <div class="vertical-center">
-            <md-button class="md-primary md-sm">Small</md-button>
-            <md-button class="md-primary">Regular</md-button>
-            <md-button class="md-primary md-lg">Large</md-button>
+        <!-- SAC -->
+        <div class="md-layout-item md-medium-size-50 md-small-size-100">
+          <div class="team-player" id="sac">
+            <md-card class="md-card-plain">
+              <div class="md-layout-item md-size-50 mx-auto">
+                <img
+                  :src="teamImg5"
+                  alt="Thumbnail Image"
+                  class="img-raised rounded-circle img-fluid"
+                />
+              </div>
+              <h4 class="card-title">
+                SAC
+                <br />
+                <small class="card-description text-muted">Founder</small>
+              </h4>
+
+              <md-card-content>
+                <p class="card-description">
+                  Variety streamer who ADORES management games!
+                  <br />
+                  Come and see me struggle with games like Endzone, Football
+                  Manager, Planet Zoo. <br />I also have an Instagram and
+                  Twitter?
+                </p>
+              </md-card-content>
+
+              <md-card-actions class="text-center">
+                <md-button
+                  href="https://www.twitter.com/saadchowdhary"
+                  class="md-just-icon md-simple md-info"
+                >
+                  <i class="fab fa-twitter"></i>
+                </md-button>
+                <md-button
+                  href="https://www.instagram.com/sahmedc786/"
+                  class="md-just-icon md-simple md-rose"
+                >
+                  <i class="fab fa-instagram"></i>
+                </md-button>
+                <md-button
+                  href="https://www.twitch.tv/sacnquack"
+                  class="md-just-icon md-simple md-primary"
+                >
+                  <i class="fab fa-twitch"></i>
+                </md-button>
+              </md-card-actions>
+            </md-card>
           </div>
         </div>
       </div>
-      <div class="title">
-        <h3><small>Pick your color</small></h3>
+      <div class="md-layout">
+        <!-- Dusklux -->
+        <div class="md-layout-item md-medium-size-33 md-small-size-100">
+          <div class="team-player" id="dusk">
+            <md-card class="md-card-plain">
+              <div class="md-layout-item md-size-50 mx-auto">
+                <img
+                  :src="teamImg1"
+                  alt="Thumbnail Image"
+                  class="img-raised rounded-circle img-fluid"
+                />
+              </div>
+              <h4 class="card-title">
+                dusklux
+                <br />
+                <small class="card-description text-muted"
+                  >Twitch Streamer / Artist</small
+                >
+              </h4>
+
+              <md-card-content>
+                <p class="card-description">
+                  My name's Ashe (she/her or they/them) and I'm a casual
+                  Canadian streamer. Come watch me play some random games that I
+                  enjoy and see how I can take some simple tasks and make them
+                  extremely difficult!
+                </p>
+              </md-card-content>
+
+              <md-card-actions class="text-center">
+                <md-button
+                  href="https://twitter.com/dusklux"
+                  class="md-just-icon md-simple md-info"
+                >
+                  <i class="fab fa-twitter"></i>
+                </md-button>
+                <md-button
+                  href="https://www.instagram.com/dusk.lux/"
+                  class="md-just-icon md-simple md-rose"
+                >
+                  <i class="fab fa-instagram"></i>
+                </md-button>
+                <md-button
+                  href="https://www.twitch.tv/dusklux"
+                  class="md-just-icon md-simple md-primary"
+                >
+                  <i class="fab fa-twitch"></i>
+                </md-button>
+              </md-card-actions>
+            </md-card>
+          </div>
+        </div>
+
+        <!-- Megan -->
+        <div class="md-layout-item md-medium-size-33 md-small-size-100">
+          <div class="team-player" id="megan">
+            <md-card class="md-card-plain">
+              <div class="md-layout-item md-size-50 mx-auto">
+                <img
+                  :src="teamImg3"
+                  alt="Thumbnail Image"
+                  class="img-raised rounded-circle img-fluid"
+                />
+              </div>
+              <h4 class="card-title">
+                MeganPi
+                <br />
+                <small class="card-description text-muted"
+                  >Twitch Streamer</small
+                >
+              </h4>
+
+              <md-card-content>
+                <p class="card-description">
+                  Hi! I'm a 21 year old Physics student from the UK. I'm a
+                  variety streamer and I play games like minecraft, GTA,
+                  warzone, and stardew valley. Come hang out!
+                </p>
+              </md-card-content>
+
+              <md-card-actions class="text-center">
+                <md-button
+                  href="https://www.twitch.tv/meganpi_"
+                  class="md-just-icon md-simple md-primary"
+                >
+                  <i class="fab fa-twitch"></i>
+                </md-button>
+              </md-card-actions>
+            </md-card>
+          </div>
+        </div>
+        <!-- FireFly -->
+        <div class="md-layout-item md-medium-size-33 md-small-size-100">
+          <div class="team-player" id="firefly">
+            <md-card class="md-card-plain">
+              <div class="md-layout-item md-size-50 mx-auto">
+                <img
+                  :src="teamImg6"
+                  alt="Thumbnail Image"
+                  class="img-raised rounded-circle img-fluid"
+                />
+              </div>
+              <h4 class="card-title">
+                Firefly
+                <br />
+                <small class="card-description text-muted"
+                  >Twitch Streamer</small
+                >
+              </h4>
+
+              <md-card-content>
+                <p class="card-description">
+                  UK based makeup artist and lover of all things macabre. I
+                  mainly stream dead by daylight/ survival games. Send cat pics.
+                </p>
+              </md-card-content>
+
+              <md-card-actions class="text-center">
+                <md-button
+                  href="https://www.twitch.tv/quigonkin"
+                  class="md-just-icon md-simple md-primary"
+                >
+                  <i class="fab fa-twitch"></i>
+                </md-button>
+              </md-card-actions>
+            </md-card>
+          </div>
+        </div>
       </div>
       <div class="md-layout">
-        <div class="md-layout-item md-size-66 mx-auto">
-          <md-button>Default</md-button>
-          <md-button class="md-primary">Primary</md-button>
-          <md-button class="md-info">Info</md-button>
-          <md-button class="md-success">Success</md-button>
-          <md-button class="md-warning">Warning</md-button>
-          <md-button class="md-danger">Danger</md-button>
-          <md-button class="md-rose">Rose</md-button>
+        <!-- The Narrator -->
+        <div class="md-layout-item md-medium-size-33 md-small-size-100">
+          <div class="team-player" id="narr">
+            <md-card class="md-card-plain">
+              <div class="md-layout-item md-size-50 mx-auto">
+                <img
+                  :src="teamImg7"
+                  alt="Thumbnail Image"
+                  class="img-raised rounded-circle img-fluid"
+                />
+              </div>
+              <h4 class="card-title">
+                The Narrator
+                <br />
+                <small class="card-description text-muted"
+                  >Streamer / Voice Over Artist</small
+                >
+              </h4>
+
+              <md-card-content>
+                <p class="card-description">
+                  Do you like movies, comics, gaming, &amp; obscure pop culture
+                  references? If so, then you've come to the right place! Hi!
+                  I'm the Narrator; a voiceover artist and variety streamer from
+                  Ontario, Canada. I like sunsets, long walks on the beach,
+                  cinema, &amp; Star Wars. Let's be friends?
+                </p>
+              </md-card-content>
+
+              <md-card-actions class="text-center">
+                <md-button
+                  href="https://twitter.com/iamthe_narrator"
+                  class="md-just-icon md-simple md-info"
+                >
+                  <i class="fab fa-twitter"></i>
+                </md-button>
+                <md-button
+                  href="https://www.instagram.com/iamthe_narrator/"
+                  class="md-just-icon md-simple md-rose"
+                >
+                  <i class="fab fa-instagram"></i>
+                </md-button>
+                <md-button
+                  href="https://www.twitch.tv/iamthe_narrator"
+                  class="md-just-icon md-simple md-primary"
+                >
+                  <i class="fab fa-twitch"></i>
+                </md-button>
+                <md-button
+                  href="https://www.youtube.com/channel/UCnAw98QjJhAiqWurU0V6EwA"
+                  class="md-just-icon md-simple md-danger"
+                >
+                  <i class="fab fa-youtube"></i>
+                </md-button>
+              </md-card-actions>
+            </md-card>
+          </div>
+        </div>
+        <!-- The Llama -->
+        <div class="md-layout-item md-medium-size-33 md-small-size-100">
+          <div class="team-player" id="llama">
+            <md-card class="md-card-plain">
+              <div class="md-layout-item md-size-50 mx-auto">
+                <img
+                  :src="teamImg8"
+                  alt="Thumbnail Image"
+                  class="img-raised rounded-circle img-fluid"
+                />
+              </div>
+              <h4 class="card-title">
+                The Llama42
+                <br />
+                <small class="card-description text-muted"
+                  >Twitch Streamer / Real Estate Mogul</small
+                >
+              </h4>
+
+              <md-card-content>
+                <p class="card-description">
+                  Yo yo yo! It's your man The Llama! I'm a 31 year old life long
+                  gamer. Man of many trades. Real estate agent, house flipper,
+                  COD player, dart thrower and beer drinker. Love making people
+                  laugh and smile! I've lived a lot of life and love to share my
+                  experiences and stories!
+                </p>
+              </md-card-content>
+
+              <md-card-actions class="text-center">
+                <md-button
+                  href="https://twitter.com/TheLlama42"
+                  class="md-just-icon md-simple md-info"
+                >
+                  <i class="fab fa-twitter"></i>
+                </md-button>
+                <md-button
+                  href="https://www.instagram.com/thellama42/"
+                  class="md-just-icon md-simple md-rose"
+                >
+                  <i class="fab fa-instagram"></i>
+                </md-button>
+                <md-button
+                  href="https://www.twitch.tv/thellama4288/"
+                  class="md-just-icon md-simple md-primary"
+                >
+                  <i class="fab fa-twitch"></i>
+                </md-button>
+              </md-card-actions>
+            </md-card>
+          </div>
+        </div>
+        <!-- Brendon -->
+        <div class="md-layout-item md-medium-size-33 md-small-size-100">
+          <div class="team-player" id="brendon">
+            <md-card class="md-card-plain">
+              <div class="md-layout-item md-size-50 mx-auto">
+                <img
+                  :src="teamImg9"
+                  alt="Thumbnail Image"
+                  class="img-raised rounded-circle img-fluid"
+                />
+              </div>
+              <h4 class="card-title">
+                Brendon Alekseii
+                <br />
+                <small class="card-description text-muted"
+                  >Social Justice Storyteller</small
+                >
+              </h4>
+
+              <md-card-content>
+                <p class="card-description">
+                  Brendon Alekseii is a writer, performer, director and activist
+                  from Trinidad &amp; Tobago. When he's not screaming at
+                  flamewheels in Hades or missing all his shots in Valorant,
+                  he's sharing his literary and Spoken Word passions with his
+                  followers, or having thoughtful conversations about social
+                  justice issues on stream.
+                </p>
+              </md-card-content>
+
+              <md-card-actions class="text-center">
+                <md-button
+                  href="https://twitter.com/BrendonAlekseii"
+                  class="md-just-icon md-simple md-info"
+                >
+                  <i class="fab fa-twitter"></i>
+                </md-button>
+                <md-button
+                  href="https://www.instagram.com/brendon.alekseii/"
+                  class="md-just-icon md-simple md-rose"
+                >
+                  <i class="fab fa-instagram"></i>
+                </md-button>
+                <md-button
+                  href="https://www.twitch.tv/brendonalekseii"
+                  class="md-just-icon md-simple md-primary"
+                >
+                  <i class="fab fa-twitch"></i>
+                </md-button>
+              </md-card-actions>
+            </md-card>
+          </div>
+        </div>
+        <!-- Tythis -->
+        <div class="md-layout-item md-medium-size-33 md-small-size-100">
+          <div class="team-player" id="tythis">
+            <md-card class="md-card-plain">
+              <div class="md-layout-item md-size-50 mx-auto">
+                <img
+                  :src="teamImg4"
+                  alt="Thumbnail Image"
+                  class="img-raised rounded-circle img-fluid"
+                />
+              </div>
+              <h4 class="card-title">
+                Tythis
+                <br />
+                <small class="card-description text-muted"
+                  >Twitch Streamer</small
+                >
+              </h4>
+
+              <md-card-content>
+                <p class="card-description">
+                  Hello! I am Tythis, a chaotic variety streamer from The North
+                  with a DnD addiction. Come hangout and nerd out with us!
+                </p>
+              </md-card-content>
+
+              <md-card-actions class="text-center">
+                <md-button
+                  href="https://www.twitch.tv/tythis"
+                  class="md-just-icon md-simple md-primary"
+                >
+                  <i class="fab fa-twitch"></i>
+                </md-button>
+              </md-card-actions>
+            </md-card>
+          </div>
         </div>
       </div>
     </div>
-    <!-- end buttons -->
-    <div class="space-50"></div>
-
-    <!-- Inputs -->
-    <div id="inputs">
-      <div class="title">
-        <h3>Inputs</h3>
-      </div>
-      <div class="md-layout">
-        <div
-          class="md-layout-item md-size-25 md-xsmall-size-100 md-small-size-50 md-medium-size-25"
-        >
-          <md-field>
-            <md-input v-model="initial" placeholder="Regular"></md-input>
-          </md-field>
-        </div>
-        <div
-          class="md-layout-item md-size-25 md-xsmall-size-100 md-small-size-50 md-medium-size-25"
-        >
-          <md-field>
-            <label>With Floating Label</label>
-            <md-input v-model="floatingLabel" type="text"></md-input>
-          </md-field>
-        </div>
-        <div
-          class="md-layout-item md-size-25 md-xsmall-size-100 md-small-size-50 md-medium-size-25"
-        >
-          <md-field class="md-valid">
-            <label>Success Input</label>
-            <md-input v-model="success" type="text"></md-input>
-            <md-icon>done</md-icon>
-          </md-field>
-        </div>
-        <div
-          class="md-layout-item md-size-25 md-xsmall-size-100 md-small-size-50 md-medium-size-25"
-        >
-          <md-field class="md-error">
-            <label>Error Input</label>
-            <md-input v-model="error" type="text"></md-input>
-            <md-icon>clear</md-icon>
-          </md-field>
-        </div>
-        <div
-          class="md-layout-item md-size-25 md-xsmall-size-100 md-small-size-50 md-medium-size-25"
-        >
-          <md-field class="md-form-group">
-            <md-icon>face</md-icon>
-            <md-input
-              v-model="withMIcon"
-              placeholder="With Material Icons"
-            ></md-input>
-          </md-field>
-        </div>
-        <div
-          class="md-layout-item md-size-25 md-xsmall-size-100 md-small-size-50 md-medium-size-25"
-        >
-          <md-field class="md-form-group">
-            <i class="fas fa-users"></i>
-            <md-input
-              v-model="withFaIcon"
-              placeholder="With Font Awesome Icons"
-            ></md-input>
-          </md-field>
-        </div>
-      </div>
-    </div>
-    <!-- end inputs -->
-
-    <div class="space-50"></div>
-
-    <!-- Checkboxes/Radios/Toggle -->
-    <div id="checkRadios">
-      <div class="md-layout">
-        <div
-          class="md-layout-item md-size-25 md-xsmall-size-100 md-small-size-50 md-medium-size-25"
-        >
-          <div class="title">
-            <h3>Checkboxes</h3>
-          </div>
-          <div class="flex-column">
-            <md-checkbox v-model="checkbox1">Checked</md-checkbox>
-            <md-checkbox v-model="checkbox2">Unchecked</md-checkbox>
-            <md-checkbox v-model="checkbox3" disabled
-              >Disabled Checked</md-checkbox
-            >
-            <md-checkbox v-model="checkbox4" disabled
-              >Disabled Unchecked</md-checkbox
-            >
-          </div>
-        </div>
-        <div
-          class="md-layout-item md-size-25 md-xsmall-size-100 md-small-size-50 md-medium-size-25"
-        >
-          <div class="title">
-            <h3>Radios</h3>
-          </div>
-          <div class="flex-column">
-            <md-radio v-model="radio1" :value="true">Radio is on</md-radio>
-            <md-radio v-model="radio1" :value="false">Radio is off</md-radio>
-            <md-radio v-model="radio2" :value="true" disabled
-              >Disabled Radio is on</md-radio
-            >
-            <md-radio v-model="radio2" :value="false" disabled
-              >Disabled Radio is off</md-radio
-            >
-          </div>
-        </div>
-        <div
-          class="md-layout-item md-size-25 md-xsmall-size-100 md-small-size-50 md-medium-size-25"
-        >
-          <div class="title">
-            <h3>Toggle Buttons</h3>
-          </div>
-          <div class="flex-column">
-            <md-switch v-model="switch1">Toogle is on</md-switch>
-            <md-switch v-model="switch2">Toogle is off</md-switch>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- end Checkboxes/Radios/Toggle -->
-
-    <div class="space-70"></div>
-
-    <!-- Progress/Pagination -->
-    <div id="progress-pagination">
-      <div class="md-layout">
-        <div class="md-layout-item md-size-50 md-xsmall-size-100">
-          <div class="title">
-            <h3>Progress</h3>
-          </div>
-          <md-progress-bar
-            class="md-primary"
-            :md-value="amount"
-          ></md-progress-bar>
-          <md-progress-bar
-            class="md-info"
-            :md-value="amount2"
-          ></md-progress-bar>
-          <md-progress-bar
-            class="md-warning"
-            md-mode="buffer"
-            :md-value="buffer"
-            :md-buffer="buffer"
-          ></md-progress-bar>
-        </div>
-        <div class="md-layout-item md-size-50 md-xsmall-size-100">
-          <div class="title">
-            <h3>Pagination</h3>
-          </div>
-          <pagination no-arrows v-model="defaultPagination" :page-count="5">
-          </pagination>
-          <pagination
-            class="pagination-info"
-            v-model="infoPagination"
-            with-text
-            :page-count="5"
-          >
-          </pagination>
-        </div>
-      </div>
-    </div>
-    <!-- end progress/pagination -->
-
-    <div class="space-50"></div>
-
-    <!-- Sliders -->
-    <div id="sliders">
-      <div class="md-layout">
-        <div class="md-layout-item md-size-50 md-xsmall-size-100">
-          <div class="title">
-            <h3>Sliders</h3>
-          </div>
-          <slider v-model="sliders.simple"> </slider>
-
-          <slider v-model="sliders.rangeSlider" type="info" :connect="true">
-          </slider>
-        </div>
-        <div class="md-layout-item md-size-50 md-xsmall-size-100">
-          <div class="title">
-            <h3>Badges</h3>
-          </div>
-          <badge type="default">Default</badge>
-          <badge type="primary">Primary</badge>
-          <badge type="info">Info</badge>
-          <badge type="success">Success</badge>
-          <badge type="warning">Warning</badge>
-          <badge type="danger">Danger</badge>
-          <badge type="rose">Rose</badge>
-        </div>
-      </div>
-    </div>
-    <!-- end sliders -->
   </div>
 </template>
 
 <script>
-import { Pagination } from "@/components";
-import { Slider } from "@/components";
-import { Badge } from "@/components";
-
 export default {
-  components: {
-    Pagination,
-    Slider,
-    Badge
-  },
-  data() {
-    return {
-      defaultPagination: 3,
-      infoPagination: 3,
-      initial: null,
-      floatingLabel: null,
-      success: null,
-      error: null,
-      withMIcon: null,
-      withFaIcon: null,
-      checkbox1: true,
-      checkbox2: null,
-      checkbox3: true,
-      checkbox4: null,
-      radio1: true,
-      radio2: false,
-      switch1: true,
-      switch2: null,
-      amount: 30,
-      amount2: 60,
-      buffer: 40,
-      sliders: {
-        simple: 40,
-        rangeSlider: [20, 60]
-      }
-    };
+  props: {
+    teamImg1: {
+      type: String,
+      default: require("@/assets/img/faces/dusk.png")
+    },
+    teamImg2: {
+      type: String,
+      default: require("@/assets/img/faces/keez.png")
+    },
+    teamImg3: {
+      type: String,
+      default: require("@/assets/img/faces/meg.png")
+    },
+    teamImg4: {
+      type: String,
+      default: require("@/assets/img/faces/tythis.jpeg")
+    },
+    teamImg5: {
+      type: String,
+      default: require("@/assets/img/faces/sac.jpg")
+    },
+    teamImg6: {
+      type: String,
+      default: require("@/assets/img/faces/firefly.png")
+    },
+    teamImg7: {
+      type: String,
+      default: require("@/assets/img/faces/narrator.png")
+    },
+    teamImg8: {
+      type: String,
+      default: require("@/assets/img/faces/llama.png")
+    },
+    teamImg9: {
+      type: String,
+      default: require("@/assets/img/faces/brendon.png")
+    }
   }
 };
 </script>
 
 <style lang="scss" scoped>
-.vertical-center {
+.md-card-actions.text-center {
   display: flex;
-  align-items: center;
-}
-.flex-column {
-  display: flex;
-  flex-direction: column;
-}
-.md-checkbox,
-.md-radio {
-  display: flex;
-  margin: 0;
-  margin-bottom: 0.5rem;
+  justify-content: center !important;
 }
 </style>
